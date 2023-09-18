@@ -1,0 +1,17 @@
+{
+  "name": "dynamic-yield/magento-integration",
+  "description": "Dynamic Yield Integration",
+  "license": "proprietary",
+  "version": "0.2.36",
+  "minimum-stability": "dev",
+  "type": "magento-module",
+  "authors": [
+    {
+      "name": "dynamicyield",
+      "email": "support@dynamicyield.com"
+    }
+  ],
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0"
+  }
+}
