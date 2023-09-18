@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>DynamicYield_Integration</name>
-    <version>0.1.8</version>
+    <version>0.2.37</version>
     <stability>stable</stability>
     <license uri="https://www.dynamicyield.com/files/HFNDOCS-3696501v1-DY-Magento-Plugin-EULA.pdf">Commercial Licence</license>
     <channel>community</channel>

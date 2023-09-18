@@ -44,11 +44,11 @@ class DynamicYield_Integration_Block_Head extends Mage_Core_Block_Text
         }
 
         $this->addText("<link rel=\"preconnect\" href=\"//" . $helper->getCDN() ."\">\n");
-        $this->addText("<link rel=\"preconnect\" href=\"//st.dynamicyield.com\">\n");
-        $this->addText("<link rel=\"preconnect\" href=\"//rcom.dynamicyield.com\">\n");
+        $this->addText("<link rel=\"preconnect\" href=\"//st" . $helper->getLinkPrefix() . ".dynamicyield.com\">\n");
+        $this->addText("<link rel=\"preconnect\" href=\"//rcom" . $helper->getLinkPrefix() . ".dynamicyield.com\">\n");
         $this->addText("<link rel=\"dns-prefetch\" href=\"//" . $helper->getCDN() ."\">\n");
-        $this->addText("<link rel=\"dns-prefetch\" href=\"//st.dynamicyield.com\">\n");
-        $this->addText("<link rel=\"dns-prefetch\" href=\"//rcom.dynamicyield.com\">\n");
+        $this->addText("<link rel=\"dns-prefetch\" href=\"//st" . $helper->getLinkPrefix() . ".dynamicyield.com\">\n");
+        $this->addText("<link rel=\"dns-prefetch\" href=\"//rcom" . $helper->getLinkPrefix() . ".dynamicyield.com\">\n");
         $this->addText("<script type=\"text/javascript\" src=\"//" . $helper->getCDN() . "/api/" . $sectionId . "/api_dynamic.js\"></script>\n");
         $this->addText("<script type=\"text/javascript\" src=\"//" . $helper->getCDN() . "/api/" . $sectionId . "/api_static.js\"></script>\n");
         $this->addText("<script type=\"text/javascript\">//<![CDATA[ 
