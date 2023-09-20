@@ -121,6 +121,20 @@ class DynamicYield_Integration_Helper_Data extends Mage_Core_Helper_Abstract
     }
 
     /**
+     * Get link URL prefix
+     *
+     * @return string
+     */
+    public function getLinkPrefix()
+    {
+        if($this->isEuropeAccount()) {
+            return '-eu';
+        }
+
+        return '';
+    }
+
+    /**
      * Get CDN url
      *
      * @return mixed|string
